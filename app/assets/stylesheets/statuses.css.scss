@@ -9,9 +9,10 @@
 .status .admin {
 	display: none; 
 }
-.status.hover {
+.status:hover {
 	background: #fafafa;
 }
-.status.hover .admin {
+.status.hover .admin,
+.status:hover .admin {
 	display: inline;
 }
